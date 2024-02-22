@@ -3,3 +3,104 @@
 @import "./normalize.css";
 @import "./global.css";
 @import "./framework.css";
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* po-portfolio */
+.po-portfolio {
+    padding-top: var(--10);
+    padding-bottom: var(--10);
+    
+    
+}
+
+.po-portfolio__projects img {
+    width: 100%;
+}
+
+.po-portfolio__title {
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: var(--10);
+}
+
+.po-portfolio__title .po-title h3 {
+    font-size: var(--3) ;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.po-portfolio__title .po-title h2 {
+    font-size: var(--10) ;
+    text-transform: capitalize;
+    margin-top: var(--2);
+}
+
+.po-portfolio__title .po-dribble-btn button {
+    padding: var(--3) ;
+    border: none;
+    color:#fff;
+    background-color: var(--dribble);
+    border-radius: var(--2) ;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.po-portfolio__title .po-dribble-btn button i {
+    margin-right: var(--1);
+}
+
+.po-projects__card {
+    background-color: #fff;
+    box-shadow: 0 2px 12px #ccc;
+    border-radius: var(--1);
+}
+
+.po-projects__card .cont {
+    padding: var(--4);
+}
+
+.po-projects__card .cont h2 {
+   margin-bottom: var(--4);
+}
+
+.po-projects__card .cont p {
+   margin-bottom: var(--4);
+   line-height: 1.6;
+}
+
+.po-projects__card .cont a {
+   display: block;
+   margin-bottom: var(--4);
+   text-decoration: none;
+   font-weight: bold;
+   font-size: var(--4);
+   color: black;
+   width: fit-content;
+   text-transform: capitalize;
+   padding-bottom: var(--3);
+   border-bottom: 2px solid var(--primary);
+}
+
+.po-projects__card .cont a i {
+    transform: rotate(40deg) translateY(20%);
+    font-size: 1.5rem;
+    padding-left: var(--1);
+}
+
+@media (max-width:767px) {
+    .po-portfolio__title {
+        flex-direction: column;
+    }
+
+    .po-portfolio__title .po-dribble-btn  {
+        margin-top: var(--4);
+    }
+}
+
+/* po-portfolio */
