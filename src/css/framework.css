@@ -9,9 +9,28 @@
 .h-2{
     height: var(--2);
 }
-
-
+.h-3{
+    height: var(--3);
+}
+.h-4{
+    height: var(--4);
+}
+.h-5{
+    height: var(--5);
+}
+.h-6{
+    height: var(--6);
+}
 /* width */
+.w-7{
+    width: var(--7);
+}
+.w-8{
+    width: var(--8);
+}
+.w-9{
+    width: var(--9);
+}
 .w-10{
     width: var(--10);
 }
