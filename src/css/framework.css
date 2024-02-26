@@ -2,7 +2,26 @@
 .flex{
     display: flex;
 }
+/* height */
+.h-1{
+    height: var(--1);
+}
+.h-2{
+    height: var(--2);
+}
 
+
+/* width */
+.w-10{
+    width: var(--10);
+}
+.w-40{
+    width: var(--40);
+}
+
+
+
+/* reham design */
 .container {
     padding-left: var(--4);
     padding-right: var(--4);
