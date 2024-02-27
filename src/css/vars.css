@@ -15,5 +15,9 @@
     --10: 2.5rem; /* 40px */
     
     --28: 7rem; /* 112px */
-    
+    --screen-h: 100vh;
+    --screen-w: 100vw;
+    --full: 100%;
+    --half: 50%;
+    --quart: 25%;
 }
