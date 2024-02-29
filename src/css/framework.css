@@ -36,6 +36,55 @@
 .h-11{
     height: var(--11);
 }
+.h-42{
+    height: var(--42);
+}
+.h-43{
+    height: var(--43);
+}
+.h-44{
+    height: var(--44);
+}
+.h-45{
+    height: var(--45);
+}
+.h-46{
+    height: var(--46);
+}
+.h-47{
+    height: var(--47);
+}
+.h-48{
+    height: var(--48);
+}
+.h-48{
+    height: var(--48);
+}
+.h-49{
+    height: var(--49);
+}
+.h-50{
+    height: var(--50);
+}
+.h-51{
+    height: var(--51);
+}
+.h-52{
+    height: var(--52);
+}
+.h-53{
+    height: var(--53);
+}
+.h-54{
+    height: var(--54);
+}
+.h-55{
+    height: var(--55);
+}
+.h-56{
+    height: var(--56);
+}
+
 /* width */
 .w-1{
     width: var(--1)
@@ -73,8 +122,51 @@
 .w-40{
     width: var(--40);
 }
-
-
+.w-42{
+    width: var(--42);
+}
+.w-43{
+    width: var(--43);
+}
+.w-44{
+    width: var(--44);
+}
+.w-45{
+    width: var(--45);
+}
+.w-46{
+    width: var(--46);
+}
+.w-47{
+    width: var(--47);
+}
+.w-48{
+    width: var(--48);
+}
+.w-49{
+    width: var(--49);
+}
+.w-50{
+    width: var(--50);
+}
+.w-51{
+    width: var(--51);
+}
+.w-52{
+    width: var(--52);
+}
+.w-53{
+    width: var(--53);
+}
+.w-54{
+    width: var(--54);
+}
+.w-55{
+    width: var(--55);
+}
+.w-56{
+    width: var(--56);
+}
 
 /* reham design */
 .container {
