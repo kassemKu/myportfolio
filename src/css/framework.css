@@ -36,6 +36,7 @@
 .h-11{
     height: var(--11);
 }
+<<<<<<< HEAD
 
 
 
@@ -99,6 +100,57 @@
 
 
 
+=======
+.h-42{
+    height: var(--42);
+}
+.h-43{
+    height: var(--43);
+}
+.h-44{
+    height: var(--44);
+}
+.h-45{
+    height: var(--45);
+}
+.h-46{
+    height: var(--46);
+}
+.h-47{
+    height: var(--47);
+}
+.h-48{
+    height: var(--48);
+}
+.h-48{
+    height: var(--48);
+}
+.h-49{
+    height: var(--49);
+}
+.h-50{
+    height: var(--50);
+}
+.h-51{
+    height: var(--51);
+}
+.h-52{
+    height: var(--52);
+}
+.h-53{
+    height: var(--53);
+}
+.h-54{
+    height: var(--54);
+}
+.h-55{
+    height: var(--55);
+}
+.h-56{
+    height: var(--56);
+}
+
+>>>>>>> 7f2e0aa4c0362e26bc247ceb4f441ad2efd14142
 /* width */
 .w-1{
     width: var(--1)
@@ -141,8 +193,191 @@
 
 
 }
-.w-40{
-    width: var(--40);
+
+.w-12{
+    width: var(--12);
+}
+.w-13{
+    width: var(--13);
+}
+.w-14{
+    width: var(--14);
+}
+.w-15{
+    width: var(--15);
+}
+.w-16{
+    width: var(--16);
+}
+.w-17{
+    width: var(--17);
+}
+.w-18{
+    width: var(--18);
+}
+.w-19{
+    width: var(--19);
+}
+
+.w-20{
+    width: var(--20);
+}
+
+
+.w-21{
+    width: var(--21);
+}
+.w-22{
+    width: var(--22);
+}
+.w-23{
+    width: var(--23);
+}
+.w-24{
+    width: var(--24);
+}
+.w-25{
+    width: var(--25);
+}
+
+.w-26{
+    width: var(--26);
+}
+.w27{
+    width: var(--27); /*Omar Hawara*/
+}
+.w28{
+    width: var(--28); /*Omar Hawara*/
+}
+.w29{
+    width: var(--29); /*Omar Hawara*/
+}
+.w30{
+    width: var(--30); /*Omar Hawara*/
+}
+.w31{
+    width: var(--31); /*Omar Hawara*/
+}
+.w32{
+    width: var(--32); /*Omar Hawara*/
+}
+.w33{
+    width: var(--33); /*Omar Hawara*/
+}
+.w34{
+    width: var(--34); /*Omar Hawara*/
+}
+.w35{
+    width: var(--35); /*Omar Hawara*/
+}
+.w36{
+    width: var(--36); /*Omar Hawara*/
+}
+.w37{
+    width: var(--37); /*Omar Hawara*/
+}
+.w38{
+    width: var(--38); /*Omar Hawara*/
+}
+.w39{
+    width: var(--39); /*Omar Hawara*/
+}
+.w40{
+    width: var(--40); /*Omar Hawara*/
+}
+.w41{
+    width: var(--41); /*Omar Hawara*/
+}
+.w-42{
+    width: var(--42);
+}
+.w-43{
+    width: var(--43);
+}
+.w-44{
+    width: var(--44);
+}
+.w-45{
+    width: var(--45);
+}
+.w-46{
+    width: var(--46);
+}
+.w-47{
+    width: var(--47);
+}
+.w-48{
+    width: var(--48);
+}
+.w-49{
+    width: var(--49);
+}
+.w-50{
+    width: var(--50);
+}
+.w-51{
+    width: var(--51);
+}
+.w-52{
+    width: var(--52);
+}
+.w-53{
+    width: var(--53);
+}
+.w-54{
+    width: var(--54);
+}
+.w-55{
+    width: var(--55);
+}
+.w-56{
+    width: var(--56);
+}
+
+.w41{
+    width: var(--41); /*Omar Hawara*/
+}
+.w-72{
+    width: var(--72);
+}
+.w-73{
+    width: var(--73);
+}
+.w-74{
+    width: var(--74);
+}
+.w-75{
+    width: var(--75);
+}
+.w-76{
+    width: var(--76);
+}
+.w-77{
+    width: var(--77);
+}
+.w-78{
+    width: var(--78);
+}
+.w-79{
+    width: var(--79);
+}
+.w-80{
+    width: var(--80);
+}
+.w-81{
+    width: var(--81);
+}
+.w-82{
+    width: var(--82);
+}
+.w-83{
+    width: var(--83);
+}
+.w-84{
+    width: var(--84);
+}
+.w-85{
+    width: var(--85);
 }
 
 
