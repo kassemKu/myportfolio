@@ -1,7 +1,3 @@
-/* display */
-.flex{
-    display: flex;
-}
 /* height */
 .h-1{
     height: var(--1);
@@ -261,6 +257,39 @@
 .h-85{
     height:var(--85);
 }
+.h-86{
+    height:var(--86);
+}
+.h-87{
+    height:var(--87);
+}
+.h-88{
+    height:var(--88);
+}
+.h-89{
+    height:var(--89);
+}
+.h-90{
+    height:var(--90);
+}
+.h-91{
+    height:var(--91);
+}
+.h-92{
+    height:var(--92);
+}
+.h-93{
+    height:var(--93);
+}
+.h-94{
+    height:var(--94);
+}
+.h-95{
+    height:var(--95);
+}
+.h-69{
+    height:var(--96);
+}
 
 /* width */
 .w-1{
@@ -518,6 +547,106 @@
 .w-85{
     width: var(--85);
 }
+.w-86{
+    height:var(--86);
+}
+.w-87{
+    height:var(--87);
+}
+.w-88{
+    height:var(--88);
+}
+.w-89{
+    height:var(--89);
+}
+.w-90{
+    height:var(--90);
+}
+.w-91{
+    height:var(--91);
+}
+.w-92{
+    height:var(--92);
+}
+.w-93{
+    height:var(--93);
+}
+.w-94{
+    height:var(--94);
+}
+.w-95{
+    height:var(--95);
+}
+.w-69{
+    height:var(--96);
+}
+
+/* display */
+.flex{
+    display: flex;
+}
+/* flex */
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+/* padding */
+.px-12{
+    padding-left: var(--12);
+    padding-right: var(--12);
+}
+.py-12{
+  padding-top: var(--12);
+  padding-bottom: var(--12);  
+}
+.pr-12{
+    padding-right: var(--12);
+}
+/* margin */
+.m-12{
+    margin: var(12);
+}
+
+.btn{
+    display: inline-flex;
+    height: 3rem;
+    min-height: 3rem;
+    max-width: var(--32);
+    flex-shrink: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--rounded-btn);
+    border-color: var(--body);
+    border-style: solid;
+    padding-left:var(--4) ;
+    padding-right:var(--4) ;
+    text-align: center;
+    font-size: .875rem;
+    gap: 0.5rem;
+    font-weight: 400;
+    text-decoration-line: none;
+    transition-duration: .2s;
+    text-transform: capitalize;
+   }
+   .btn-link{
+  border:none;
+   }
+   .btn-outline{
+    background-color: transparent;
+    border-color: var(--body);
+   }
+   .btn-primary{
+     border-color: var(--primary);
+     color: var(--primary);
+   }
+
+
 
 
 /* reham design */
