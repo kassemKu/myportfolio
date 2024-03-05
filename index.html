@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio</title>
-    <!-- add link to font awesome for gitting icon -->
+    <!-- add link to font awesome for getting icon -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -18,75 +18,59 @@
 
   <body>
     <main class="po-main">
-      <!-- start header -->
-      <header class="po-header flex justify-between items-center h-20 px-12">
-        <div class="po-header__logo-container">
-          <a href="/" class="po-logo-container__link">
-            <img
-              src="./assets/imgs/Logologo.png"
-              alt="logo"
-              class="po-logo-container__link__img h-10 w-40"
-            />
-          </a>
-        </div>
-        <nav class="po-header__nav-container">
-          <ul class="po-nav__list flex">
-            <li class="po-list__item">
-              <a href="#home" class="po-list__limk btn btn-link">Home</a>
-            </li>
-            <li class="po-list__item">
-              <a href="#experties" class="po-list__limk btn btn-link">My Expertise</a>
-            </li>
-            <li class="po-list__item">
-              <a href="#about-me" class="po-list__limk btn btn-link">About me</a>
-            </li>
-            <li class="po-list__item">
-              <a href="#portfolio" class="po-list__limk btn btn-link">Portfolio</a>
-            </li>
-            <li class="po-list__item">
-              <a href="#testimonials" class="po-list__limk btn btn-link">Testimonials</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="po-header__btn-container">
-          <a href="#contact" class="po-btn-container__contact-btn btn btn-primary ">Contact Me</a>
-        </div>
-      </header>
-      <!-- end header -->
-      <!-- start content section -->
-      <section class="po-content">
-        <!--start home section-->
-        <section class="po-home" id="home">
-          <div class="po-text-container">
-            <div class="po-text">
-              <span>hey, i am ...</span>
-              <h1>i create product design and brand experience</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-                necessitatibus minus nobis harum rem dolorem aliquam vero
-                recusandae. Aliquid voluptatibus deleniti quas sequi ut dicta
-                fuga odit, et atque. Magni!
-              </p>
-            </div>
-            <div class="po-contact-btn">
-              <button class="po-git-touch">git in touch</button>
-            </div>
+      <section class="po-inner relative">
+        <!-- start header -->
+        <section class="po-sec po-sec__header p-0 absolute w-full bg-white">
+        <header class="po-header h-25 w-full flex items-center justify-between">
+          <!-- start logo -->
+          <div class="po-header__logo-container pl-12">
+            <a href="/" class="po-logo-container__link">
+              <img src="./assets/imgs/Logologo.png" alt="portfolio" title="portfolio" class="po-link__img h-10 w-40">
+            </a>
           </div>
-          <div class="po-img-container">
-            <figure class="po-img">
-              <img src="./assets/imgs/Group 11 1.png" alt="an avatar" />
-            </figure>
+          <!-- end logo -->
+          <!-- start nav -->
+          <nav class="po-header__nav">
+            <ul class="po-nav__nav-list flex">
+              <li class="po-nav-list__nav-item"><a href="#home" class="po-nav-list__nav-link btn btn-link">Home</a></li>
+              <li class="po-nav-list__nav-item"><a href="#about-me" class="po-nav-list__nav-link btn btn-link">About me</a></li>
+              <li class="po-nav-list__nav-item"><a href="#expertise" class="po-nav-list__nav-link btn btn-link">Expertise</a></li>
+              <li class="po-nav-list__nav-item"><a href="#portfolio" class="po-nav-list__nav-link btn btn-link">portfolio</a></li>
+              <li class="po-nav-list__nav-item"><a href="#testimonials" class="po-nav-list__nav-link btn btn-link">Testimonials</a></li>
+            </ul>
+          </nav>
+          <!-- end nav -->
+          <!-- start button -->
+          <div class="po-header__contact-container pr-12">
+            <a  href="#contact" class="po-contact__contact-btn btn btn-outline btn-primary">Contact me</a>
+          </div>
+          <!-- end button -->
+        </header>
+       </section>
+       <!-- end header -->
+       <!-- start content section -->
+       <section class="po-content">
+        <!--start home section-->
+        <section id="home" class="po-sec po-sec__home h-screen flex justify-center bg-muted items-center pt-24">
+          <div class="po-sec__home-text w-half flex flex-col">
+              <span class="text-lg bold mb-8 capitalize">Hey, I am ...</span>
+              <h1 class="text-6xl capitalize">I create <span class="text-primary">product</span> design and brand experience</h1>
+              <p class="w-half leading-relaxed text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              <button class="btn btn-primary mt-8">Get In Touch</button>
+          </div>
+          <div class="po-sec__home-img-container w-half">
+            <img src="./assets/imgs/avatar.png" alt="avatar" class="po-img-container__img">
           </div>
         </section>
        <!--Amira and Heba-->
-        <section class="po-expertise" id="expertise">
+        <section class="po-sec po-expertise" id="expertise">
           <div class="po-expertise__title">
             <span>skills</span>
             <h2>my expertise</h2>
           </div>
           <div class="po-expertise__container">
             <div class="po-skill">
-              <div class="po-skill__card">
+              <div class="po-skill__img-cont">
                 <div class="po-skill__icon">
                   <i class="fa-regular fa-paper-plane"></i> 
                 </div>
@@ -99,7 +83,7 @@
               </div>
             </div>
             <div class="po-skill">
-              <div class="po-skill__card">
+              <div class="po-skill__img-cont">
                 <div class="po-skill__icon">
                   <i class="fa-solid fa-tag"></i>  
                 </div>
@@ -112,7 +96,7 @@
               </div>
             </div>
             <div class="po-skill">
-              <div class="po-skill__card">
+              <div class="po-skill__img-cont">
                 <div class="po-skill__icon">
                   <i class="fa-solid fa-feather"></i> 
                 </div>
@@ -125,7 +109,7 @@
               </div>
             </div>
             <div class="po-skill">
-              <div class="po-skill__card">
+              <div class="po-skill__img-cont">
                 <div class="po-skill__icon">
                   <i class="fa-solid fa-code"></i>
                 </div>
@@ -140,7 +124,7 @@
           </div>
         </section>
         <!-- start about me samy -->
-        <section class="po-about-me" id="about-me">
+        <section class="po-sec po-about-me" id="about-me">
           <div class="po-img-container">
             <figure class="po-img">
               <img src="./assets/imgs/About Me.png" alt="an avatar" />
@@ -148,7 +132,7 @@
           </div>
           <div class="po-text-container">
             <span>About</span>
-            <h2>About My</h2>
+            <h2>About Me</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
               varius faucibus massa sollicitudin amet augue. Nibh metus a semper
@@ -163,8 +147,8 @@
           </div>
         </section>
        <!-- start po-portfolio riham -->
-       <section class="po-portfolio container" id="portfolio">
-        <div class="po-portfolio__title flex">
+       <section class="po-sec po-portfolio container" id="portfolio">
+        <div class="po-portfolio__title ">
           <div class="po-title">
             <span>recent project</span>
             <h2>my portfolio</h2>
@@ -177,8 +161,8 @@
           </div>
         </div>
 
-        <div class="po-portfolio__projects grid">
-          <div class="po-projects__card">
+        <div class="po-portfolio__projects ">
+          <div class="po-projects__img-cont">
             <img src="./assets/imgs/po-protofolio.png" alt="" />
             <div class="cont">
               <h2>Ahuse</h2>
@@ -194,7 +178,7 @@
             </div>
           </div>
 
-          <div class="po-projects__card">
+          <div class="po-projects__img-cont">
             <img src="./assets/imgs/po-2.png" alt="" />
             <div class="cont">
               <h2>Ahuse</h2>
@@ -210,7 +194,7 @@
             </div>
           </div>
 
-          <div class="po-projects__card">
+          <div class="po-projects__img-cont">
             <img src="./assets/imgs/po-3.png" alt="" />
             <div class="cont">
               <h2>Ahuse</h2>
@@ -229,19 +213,16 @@
        </section>
        <!-- end po-portfolio -->
        <!-- testimonials -->
-       <section class="po-testimonials" id="testimonials">
+       <section class="po-sec po-testimonials" id="testimonials">
         <div class="po-testimonial__title">
           <span>clients feedback </span>
           <h2>customer testimonials</h2>
         </div>
         <div class="po-testimonial__container">
           <div class="po-feedback-card">
-            <div class="feedback__icon">
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
+            <div class="feedback__img">
+              <img src="./assets/imgs/Stars.png" alt="">
+             </div>
             <div class="feedback__text">
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, velit?</p>
             </div>
@@ -254,11 +235,8 @@
             </div>
           </div>
           <div class="po-feedback-card">
-            <div class="feedback__icon">
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
+            <div class="feedback__img">
+             <img src="./assets/imgs/Stars.png" alt="">
             </div>
             <div class="feedback__text">
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, velit?</p>
@@ -272,12 +250,9 @@
             </div>
           </div>
           <div class="po-feedback-card">
-            <div class="feedback__icon">
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
+            <div class="feedback__img">
+              <img src="./assets/imgs/Stars.png" alt="">
+             </div>
             <div class="feedback__text">
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, velit?</p>
             </div>
@@ -293,7 +268,7 @@
        </section>
        <!--end testimonials section -->
        <!-- start contact section omar -->
-       <section class="po-contact" id="contact">
+       <section class="po-sec po-contact" id="contact">
         <div class="po-contact-title">
           <span>get in touch</span>
           <h2>contact me</h2>
@@ -357,7 +332,7 @@
         </div>
        </section>
        <!-- end contact section -->
-      </section> 
+       </section> 
        <!-- start footer omar-->
        <footer class="po-footer">
         <div class="po-footer__nav">
@@ -413,6 +388,7 @@
         </div>
        </footer>
        <!-- end footer -->
+      </section>
     </main>
     <script src="./src/js/script.js"></script>
   </body>
