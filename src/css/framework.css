@@ -744,8 +744,9 @@ text-transform:capitalize;
   padding-top: var(--4);
   padding-bottom: var(--4);
 }
+
 .px-12{
- padding-left:var(--12) ;
+ padding-left:var(--12);
  padding-right:var(--12) ;
 }
 .pl-12{
@@ -819,6 +820,8 @@ text-transform:capitalize;
  transition-duration: .2s;
  text-transform: capitalize;
 }
+
+
 .btn-link{
   border: none;
 }
@@ -912,7 +915,6 @@ border-radius: var(--rounded-btn);
   line-height: 1.5rem;
   border-radius: var(--rounded-btn);
   border-width: 1px;
-  border-color: transparent;
   background-color: var(--white);
 }
 .input-primary {

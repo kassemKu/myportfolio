@@ -277,45 +277,42 @@
        <!--end testimonials section -->
        <!-- start contact section omar -->
        <section class="po-sec po-contact" id="contact">
-        <div class="po-contact-title">
-          <span>get in touch</span>
-          <h2>contact me</h2>
-          <p>
-            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit..." "There is no one who loves pain
-            itself, who seeks after it and wants to have it, simply because it
-            is pain..."
+        <div class="po-contact-title flex flex-col justify-center items-center">
+          <span class="text-lg bold mb-8 capitalize">get in touch</span>
+          <h2 class="text-5xl capitalize">contact me</h2>
+          <p class="text-lg py-5 leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
         <div class="po-contact-container">
-          <form class="po-contact-form">
-            <div class="”po-contact__name”">
+          <form class="po-contact-form flex flex-col w-full">
+            <div class="po-contact__name grid grid-cols-2 gap-x-12 w-full">
                 <div class="po-first-name">
-                  <label for="F-name">First Name
-                     <input type="text" name="firstName" id="F-name" required/>                
+                  <label class="text-lg capitalize " for="F-name">First Name
+                     <input class="input input-primary w-full" type="text" name="firstName" id="F-name" required/>                
                   </label>
                 </div>
                 <div class="po-last-name">
-                   <label for="L-name">Last Name
-                     <input type="text" name="lastName" id="L-name" required/>
+                   <label class="text-lg capitalize " for="L-name">Last Name
+                     <input  class="input input-primary w-full" type="text" name="lastName" id="L-name" required/>
                    </label>
                 </div>
             </div>
-            <div class="”po-email-number”">
+            <div class="po-email-number grid grid-cols-2 gap-x-12 w-full">
               <div class="po-email">
-                 <label for="email-input">email
-                   <input type="email" name="email" id="email-input" required/>
+                 <label class="text-lg capitalize " for="email-input">email
+                   <input  class="input input-primary w-full" type="email" name="email" id="email-input" required/>
                  </label>
               </div>
               <div class="po-number">
-                 <label for="phone-input"> phone number 
-                    <input type="number" name="phone" id="phone-input" required/>
+                 <label class="text-lg capitalize " for="phone-input"> phone number 
+                    <input  class="input input-primary w-full" type="number" name="phone" id="phone-input" required/>
                  </label>
               </div>
             </div>
-            <div class="”po-selection”">
-              <p>choose a topic</p>
-              <select id="dropdown" name="topic">
+            <div class="po-selection">
+              <p class="text-lg capitalize ">choose a topic</p>
+              <select class="text-lg capitalize input-primary w-full rounded h-12" id="dropdown" name="topic">
                 <option value=""></option>
                 <option value=""></option>
                 <option value=""></option>
@@ -324,17 +321,17 @@
               </select>
             </div>
             <div class="”po-message”">
-              <p>Message</p>
-              <textarea rows="5" cols="5"></textarea>
+              <p class="text-lg capitalize ">Message</p>
+              <textarea class="text-lg capitalize input-primary w-full rounded" rows="5" cols="5"></textarea>
             </div>
             <div class="po-terms">
-              <label for="terms">
+              <label class="text-sm capitalize" for="terms">
                 <input type="checkbox" id="terms">
                 I accept the terms 
               </label>
             </div>
-            <div class="”po-sub-btn”">
-              <button type="submit">submit</button>
+            <div class="po-sub-btn flex justify-center">
+              <button class="btn btn-primary px-12"type="submit">submit</button>
             </div>
           </form>
         </div>
