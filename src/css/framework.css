@@ -740,13 +740,15 @@ text-transform:capitalize;
 .p-0{
   padding: var(--0);
 }
+.p-2{
+  padding: var(--2);
+}
 .py-4{
   padding-top: var(--4);
   padding-bottom: var(--4);
 }
-
 .px-12{
- padding-left:var(--12);
+ padding-left:var(--12) ;
  padding-right:var(--12) ;
 }
 .pl-12{
@@ -755,7 +757,9 @@ text-transform:capitalize;
 .pb-8 {
   padding-bottom: var(--8);
 }
-
+.pb-10 {
+  padding-bottom: var(--10);
+}
 .pr-5 {
   padding-right: var(--5);
 }
@@ -820,8 +824,6 @@ text-transform:capitalize;
  transition-duration: .2s;
  text-transform: capitalize;
 }
-
-
 .btn-link{
   border: none;
 }
@@ -915,6 +917,7 @@ border-radius: var(--rounded-btn);
   line-height: 1.5rem;
   border-radius: var(--rounded-btn);
   border-width: 1px;
+  border-color: transparent;
   background-color: var(--white);
 }
 .input-primary {
